@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>393</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(11, 34, 116, 255), stop:1 rgba(69, 168, 255, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="5" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:solid 3px #6b6b6b;
+background-color: rgb(0, 81, 255);
+border-radius: 15px;
+padding:21px 42px; 
+font:25px;</string>
+      </property>
+      <property name="text">
+       <string>СОЗДАТЬ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+font:18px;</string>
+      </property>
+      <property name="text">
+       <string>Тип файлов</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 0);
+font:18px;</string>
+      </property>
+      <property name="text">
+       <string>Имя проекта</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="project_name">
+      <property name="styleSheet">
+       <string notr="true">padding:21px 42px; 
+border:solid 3px #6b6b6b;
+background-color: rgb(255, 255, 255);
+border-radius: 15px;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="files_type">
+      <property name="styleSheet">
+       <string notr="true">padding:21px 42px; 
+border:solid 3px #6b6b6b;
+background-color: rgb(255, 255, 255);
+border-radius: 15px;</string>
+      </property>
+      <property name="text">
+       <string>py</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
